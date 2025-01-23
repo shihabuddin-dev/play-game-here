@@ -1,11 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: "Work Sans", serif;
     margin: 0 auto;
     max-width: 1280px;
     box-sizing: border-box;
+}
+
+/* Common Styles  (Shared) */
+:root {
+    --primary-font: 1.25rem;
+    --secondary-font: 3rem;
+    --primary-color: #534c64;
+    --black-color: #0b0223;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.sec-title {
+    font-size: var(--secondary-font);
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+}
+
+.sec-caption {
+    color: var(--primary-color);
+    font-size: var(--primary-font);
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+}
+
+/* Navbar styles  */
+.nav {
+    align-items: center;
+    justify-content: space-around;
+    padding: 37px 0;
+}
+
+.nav-logo h3 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.nav-logo,
+.nav-text {
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-text li {
+    font-size: var(--primary-font);
+}
+
+.nav-text li a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.nav-text li:nth-child(3) {
+    justify-content: center;
+    gap: 10px;
+    color: var(--primary-color);
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    padding: 10px 15px;
 }
