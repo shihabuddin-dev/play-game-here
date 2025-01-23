@@ -9,11 +9,60 @@
 .nav-text{
     flex-direction: column;
 }
+.hero{
+    flex-direction: column-reverse;
+    background: none;
+    gap: 20px;
+}
+.hero-left{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-left h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    padding: 10px 0;
+
+}
+.hero-right img{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.hero-right {
+    display: flex;
+    
+}
+.hero-left button {
+    margin-bottom: 20px;
+}
+
+
 }
 
 @media only screen and (min-width:576px) and (max-width:992px){
     .nav{
         flex-direction: column;
         gap: 20px;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        background: none;
+        /* gap: 40px; */
+    }
+    .hero-right img{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .hero-left{
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px;
+        text-align: center;
     }
 }

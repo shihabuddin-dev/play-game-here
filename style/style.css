@@ -30,11 +30,13 @@ body {
 .d-grid {
     display: grid;
 }
-.color-text{
+
+.color-text {
     background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .sec-title {
     font-size: var(--secondary-font);
     font-weight: 700;
@@ -59,12 +61,15 @@ body {
     border: none;
     background: var(--overall-color);
 }
-.btn-primary{
+
+.btn-primary {
     color: var(--wite-color);
 }
-.btn-secondary{
-background: rgb(78, 197, 247);
+
+.btn-secondary {
+    background: rgb(78, 197, 247);
 }
+
 /* Navbar styles  */
 .nav {
     align-items: center;
@@ -108,39 +113,36 @@ background: rgb(78, 197, 247);
 .hero {
     max-width: 1280px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
+    gap: 60px;
+    background: linear-gradient(223.23deg, rgba(140, 87, 238, 0.03) 3.979%,rgba(241, 68, 174, 0.03) 100.54%);
 }
 
 .hero-left {
-    background-image: url(//images/bg.png);
-    background-size: contain;
-    background-position: center;
+    background: url(../images/bg.png);
+    background-position: right;
     width: 50%;
-
+    padding-left: 80px;
 }
-
-.hero-right{
-    width: 50%;
-}
-.hero-right img{
-    width: 100%;
-}
-
+ 
 .hero-left h1 {
     font-size: 5.9rem;
     font-weight: 800;
     padding: 20px 0;
 
 }
+
 .hero-left h2 {
     font-size: var(--secondary-font);
     font-weight: 600;
 }
+
 .hero-left p {
     font-size: var(--primary-font);
     padding-bottom: 20px;
 }
-.hero-left button {
+
+.hero-left button, .hero-left p> img {
     margin-right: 20px;
 }
