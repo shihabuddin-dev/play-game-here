@@ -229,7 +229,23 @@ h3 {
     position: absolute;
     left: -25%;
     bottom: -10%;
+    width: 50%;
 }
 .play-instant-img-main{
-   margin-right: 30px;
+   margin-right: 25px;
+}
+/* Play game online anywhere  */
+.anywhere-online{
+    flex-direction: row-reverse;
+    padding: 60px 0 100px 0;
+}
+.anywhere-online-img-sub{
+    position: absolute;
+    left: 75%;
+    top: 70%;
+    width: 40%;
+    height: auto;
+}
+.anywhere-online-img{
+    margin-right: 0px;
 }

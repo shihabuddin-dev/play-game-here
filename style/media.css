@@ -87,6 +87,7 @@
         width: 90%;
         gap: 20px;
         text-align: center;
+        padding-bottom: 20px;
 
     }
 
@@ -109,9 +110,13 @@
         height: auto;
     }
 
-    .instant-play-img-sub {
+    .instant-play-img-sub, .anywhere-online-img-sub {
         display: none;
     }
+    .anywhere-online{
+        padding: 0;
+    }
+
 
 }
 
@@ -153,7 +158,7 @@
 
     .game-whole-card {
         margin: 50px 0 100px 0;
-        grid-template-columns: auto;
+        grid-template-columns: repeat(2, 1fr);
         gap: 24px;
         justify-content: center;
         padding-top: 30px;
@@ -186,5 +191,10 @@
         width: 35%;
         left: -5%;
     bottom: -5%;
+    }
+    .anywhere-online-img-sub{
+        width: 35%;
+        right: -20%;
+        bottom: -20%;
     }
 }
