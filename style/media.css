@@ -65,7 +65,8 @@
 
     .o-game {
         width: 80%;
-        justify-content: center;
+        margin: 0 auto;
+        /* justify-content: center; */
     }
 
     .game-whole-card {
@@ -74,9 +75,44 @@
         gap: 24px;
         justify-content: center;
         padding-top: 30px;
-        width: 90%;
+        /* width: 90%; */
         justify-self: center;
+        width: 80%;
+        margin: 0 auto;
     }
+
+    .instant-play {
+        flex-direction: column;
+        margin-right: 0px;
+        width: 90%;
+        gap: 20px;
+        text-align: center;
+
+    }
+
+    .instant-play-text {
+        margin: 0 auto;
+        width: 80%;
+        padding: 30px 0;
+
+    }
+
+    .instant-play-img {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .play-instant-img-main {
+        margin-right: 0px;
+        width: 90%;
+        height: auto;
+    }
+
+    .instant-play-img-sub {
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width:576px) and (max-width:992px) {
@@ -114,6 +150,7 @@
         width: 90%;
         padding-right: 0px;
     }
+
     .game-whole-card {
         margin: 50px 0 100px 0;
         grid-template-columns: auto;
@@ -122,5 +159,32 @@
         padding-top: 30px;
         width: 90%;
         justify-self: center;
+    }
+    .instant-play {
+        flex-direction: column;
+        margin-right: 0px;
+        width: 90%;
+        gap: 50px;
+        text-align: center;
+
+    }
+    .instant-play-img {
+        margin-right: 0px;
+        width: 100%;
+
+    }
+    .instant-play-text{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .instant-play-img-main{
+        margin-right: 0px;
+        width: 40%;
+
+    }
+    .instant-play-img-sub{
+        width: 35%;
+        left: -5%;
+    bottom: -5%;
     }
 }
