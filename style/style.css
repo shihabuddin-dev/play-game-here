@@ -241,11 +241,47 @@ h3 {
 }
 .anywhere-online-img-sub{
     position: absolute;
-    left: 75%;
-    top: 70%;
+    left: 72%;
+    top: 62%;
     width: 40%;
     height: auto;
 }
 .anywhere-online-img{
     margin-right: 0px;
+}
+/* Career  */
+.career{
+    margin: 0 auto;
+    max-width: 1280px;
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+.c-text{
+    color: var(--wite-color);
+}
+.career-text, .career-img {
+    width: 50%;
+}
+.career-text {
+   padding-left: 30px;
+}
+.career-img img{
+    width: 100%;
+}
+.career-list{
+    padding: 32px 0 22px 0;
+}
+.career-list ul li{
+    padding-bottom: 10px;
+  
+}
+.career-list-left, .career-list-right{
+font-size: 20px;
+font-weight: 600;
+}
+.career-list-right{
+    text-align: right;
 }

@@ -116,8 +116,20 @@
     .anywhere-online{
         padding: 0;
     }
+.career{
+    flex-direction: column;
+}
+.career-text, .career-img {
+    width: 80%;
+}
+.career-img img{
+    width: none;
 
 
+}
+.career-text {
+    padding-left: 0px;
+ }
 }
 
 @media only screen and (min-width:576px) and (max-width:992px) {
@@ -196,5 +208,8 @@
         width: 35%;
         right: -20%;
         bottom: -20%;
+    }
+    .career{
+        flex-direction: column;
     }
 }
