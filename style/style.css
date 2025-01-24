@@ -41,7 +41,7 @@ body {
     font-size: var(--secondary-font);
     font-weight: 700;
     line-height: 60px;
-    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    
 }
 
 .sec-caption {
@@ -69,7 +69,10 @@ body {
 .btn-secondary {
     background: rgb(78, 197, 247);
 }
-
+section, nav{
+    max-width: 1280px;
+    margin: 0 auto;
+}
 /* Navbar styles  */
 .nav {
     align-items: center;
@@ -111,10 +114,8 @@ body {
 
 /* Hero section styles  */
 .hero {
-    max-width: 1280px;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
     gap: 60px;
     background: linear-gradient(223.23deg, rgba(140, 87, 238, 0.03) 3.979%,rgba(241, 68, 174, 0.03) 100.54%);
 }
@@ -145,4 +146,24 @@ body {
 
 .hero-left button, .hero-left p> img {
     margin-right: 20px;
+}
+/* Hero bottom  */
+.hero-bottom{
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+   
+}
+.h-bottom-img img {
+    width: 100%;
+}
+
+.h-bottom-text{
+    text-align: right;
+    width: 40%;
+    padding-right: 38px;
+}
+.h-bottom-text, button, h3{
+    margin: 10px 0;
 }
