@@ -285,3 +285,49 @@ font-weight: 600;
 .career-list-right{
     text-align: right;
 }
+/* Game Review section  */
+.review{
+    margin: 0 auto;
+    background: linear-gradient(90.00deg, rgba(255, 66, 165, 0.03) 13.134%,rgba(255, 66, 165, 0.03) 87.942%);
+    grid-template-columns: repeat(5, 1fr);
+    padding: 120px 0;
+    gap: 20px;
+}
+.review-card{
+    background-color: var(--wite-color);
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   border-radius: 30px;
+   padding: 10px 20px 10px 10px;
+}
+.review-card p{
+    font-size: var(--primary-font);
+    font-weight: 600;
+}
+/* footer section  */
+Footer{
+    background-color: var(--black-color);
+    padding: 30px 0;
+    text-align: center;
+    color: var(--wite-color);
+}
+.footer-logo {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+
+}
+.footer-logo h4{
+    color: var(--wite-color);
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.footer-text li a{
+    color: var(--wite-color);
+}
+footer ul{
+    padding-bottom: 20px;
+}

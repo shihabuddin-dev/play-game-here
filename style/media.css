@@ -130,6 +130,11 @@
 .career-text {
     padding-left: 0px;
  }
+ .review{
+    grid-template-columns: repeat(3, 1fr);
+    padding: 100px 0;
+    gap: 10px;
+}
 }
 
 @media only screen and (min-width:576px) and (max-width:992px) {
@@ -211,5 +216,10 @@
     }
     .career{
         flex-direction: column;
+    }
+    .review{
+        grid-template-columns: repeat(3, 1fr);
+        padding: 100px 0;
+        gap: 10px;
     }
 }
